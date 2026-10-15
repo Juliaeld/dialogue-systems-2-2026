@@ -5,7 +5,6 @@ import { DMContext, DMEvents, Message } from "./types";
 import OpenAI from "openai";
 import { QdrantClient } from "@qdrant/js-client-rest";
 
-const REGION = "switzerlandnorth";
 
 const openai = new OpenAI({
   baseURL: "http://localhost:11434/v1/",
